@@ -1,5 +1,21 @@
 @media only screen and (min-width: 992px) {
   nav {
-    float: left;
+    float: left !important;
   }
+}
+
+nav {
+  display: inline;
+}
+
+.main-section:nth-child(1) {
+  padding-top: 30px;
+}
+
+.main-section {
+  margin-top: 30px;
+}
+
+.main-section header {
+  font-weight: 500;
 }
